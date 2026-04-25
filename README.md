@@ -43,6 +43,12 @@ Browsers are where knowledge work happens, but they don't play nicely with an as
 ![Anthropic Claude](https://img.shields.io/badge/Anthropic_Claude-CC785C?style=flat&logoColor=white)
 ![Notion API](https://img.shields.io/badge/Notion_API-000000?style=flat&logo=notion&logoColor=white)
 
+## Related in the AIOS Portfolio
+
+- **[AIOS](https://github.com/mikecutillo/aios)** — The receiver; Next.js dashboard orchestrating 16+ household and business modules
+- **[AI Model Router](https://github.com/mikecutillo/ai-model-router)** — Multi-provider LLM router with waterfall fallback (Claude, OpenAI, Gemini, OpenRouter, local)
+- **[Household Voice Control](https://github.com/mikecutillo/household-voice-control)** — Voice-interface layer bridging Alexa to a local AI OS via custom skill + Lambda
+
 ---
 
 Part of the AIOS portfolio. See the [profile README](https://github.com/mikecutillo) for the full system map.
