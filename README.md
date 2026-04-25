@@ -19,6 +19,23 @@ Browsers are where knowledge work happens, but they don't play nicely with an as
 - **Typed and auditable action plans** — every step is shown before it runs
 - **Syncs to AIOS** — every invocation is logged to a shared local task store
 
+## Architecture
+
+```mermaid
+graph LR
+    Page[🌐 Page context · URL · DOM · selection] --> Bundle
+    Voice[🎙️ Voice instruction] --> Bundle
+    Bundle[📦 Context bundle] --> Claude[🤖 Claude]
+    Claude --> Plan[📋 Typed action plan]
+    Plan --> Preview[👁️ User preview]
+    Preview --> Exec[⚙️ Adapter executor]
+    Exec --> Notion[📝 Notion]
+    Exec --> URL[🔗 Open URL]
+    Exec --> Clip[📋 Clipboard]
+    Exec --> Disc[💬 Discord]
+    Exec --> Tasks[✅ AIOS tasks]
+```
+
 ## Software
 
 | Layer | Tech |
